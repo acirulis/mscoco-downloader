@@ -1,0 +1,4 @@
+0 car 3
+1 truck 6
+2 bus 7
+3 train 8
