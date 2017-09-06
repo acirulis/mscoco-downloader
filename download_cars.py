@@ -32,7 +32,7 @@ print('COCO categories: \n\n', '; '.join(nms))
 catIds = coco.getCatIds(catNms=['truck'])
 catIds_all = coco.getCatIds(catNms=['car', 'truck', 'bus', 'train'])
 catNames = {0: 'car', 1: 'truck', 2: 'bus', 3: 'train'}
-catMap = {3: 0, 6: 1, 7: 2, 8: 3}
+catMap = {3: 0, 6: 2, 7: 3, 8: 1}
 
 imgIds = coco.getImgIds(catIds=catIds)
 print('Total images found: ', len(imgIds))
